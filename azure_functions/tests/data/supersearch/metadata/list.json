@@ -1,0 +1,47 @@
+[
+  {
+    "ID": 102,
+    "Name": "Test1",
+    "Version": "1.0",
+    "CheckSum": "CheckSum",
+    "Datasource": "Datasource",
+    "Destination": "Destination",
+    "LastDownloadedTime": "2024-07-13T00:00:00Z",
+    "AccessRights": [],
+    "Status": "Online",
+    "Classification": "C0",
+    "UpdatedAt": "2024-07-13T00:00:00Z",
+    "CreatedAt": "2024-07-13T00:00:00Z",
+    "IndexName": "supersearch"
+  },
+  {
+    "ID": 103,
+    "Name": "Test1",
+    "Version": "1.0",
+    "CheckSum": "CheckSum",
+    "Datasource": "Datasource",
+    "Destination": "Destination",
+    "LastDownloadedTime": "2024-07-13T00:00:00Z",
+    "AccessRights": [],
+    "Status": "Online",
+    "Classification": "C0",
+    "UpdatedAt": "2024-07-13T00:00:00Z",
+    "CreatedAt": "2024-07-13T00:00:00Z",
+    "IndexName": "supersearch"
+  },
+  {
+    "ID": 104,
+    "Name": "Test1",
+    "Version": "1.0",
+    "CheckSum": "CheckSum",
+    "Datasource": "Datasource",
+    "Destination": "Destination",
+    "LastDownloadedTime": "2024-07-13T00:00:00Z",
+    "AccessRights": [],
+    "Status": "Offline",
+    "Classification": "C0",
+    "UpdatedAt": "2024-07-13T00:00:00Z",
+    "CreatedAt": "2024-07-13T00:00:00Z",
+    "IndexName": "supersearch"
+  }
+]

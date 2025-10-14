@@ -1,0 +1,31 @@
+superagent:
+  documents:
+    storage:
+      account: https://gtpgenaidevpts01.blob.core.windows.net/
+      container: schema
+      path: literaturas
+  storageoutput:
+    storage:
+      account: https://gtpgenaidevpts03.blob.core.windows.net/
+      container: superagent
+      path: superagent/docs
+  index:
+    storage:
+      account: https://gtpgenaidevpts03.blob.core.windows.net/
+      container: superagent
+      path: superagent/index
+  logs:
+    storage:
+      account: https://gtpgenaidevpts03.blob.core.windows.net/
+      container: superagent
+      path: superagent/logs
+  openai:
+    endpoint: https://gtpgenaidevptswc.openai.azure.com
+    modeldeployment: text-embedding-ada-002
+    questionmodeldeployment: gpt-4o-mini-2024-07-18
+    questionmodelversion: "2024-10-21"
+    temperature: "0.4"
+    version: "2023-05-15"
+    IndexName: superagent-index-v3
+    searchendpoint: https://gtpgenaidevptsch.search.windows.net/
+    wordlimit: 2900

@@ -1,0 +1,14 @@
+{
+    "d": {
+      "results": [
+        {
+          "Email": "test1@vodafone.com"
+        },
+        {         
+          "Title": "pt-sp-dev-env Owners",        
+          "Email": ""          
+        }       
+      ]
+    },
+    "SPGroupsFilePath": "superagent/groupaccess/pt-sp-dev-env Owners.json;"
+  }

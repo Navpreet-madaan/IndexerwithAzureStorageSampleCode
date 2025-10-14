@@ -1,5 +1,6 @@
 {
   "version": "2.0",
+  "functionTimeout": "05:30:00",
   "logging": {
     "console": {
       "isEnabled": true,

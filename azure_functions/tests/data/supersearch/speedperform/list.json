@@ -1,0 +1,52 @@
+[
+  {
+    "id": 100,
+    "revisionId": 1,
+    "type": "Article",
+    "title": "New Article",
+    "description": "Needs to be added to the index",
+    "lastModified": "2024-07-08T13:36:18Z",
+    "status": "Online",
+    "publicLink": "https://ajuda.vodafone.pt?article_id=253"    
+  },
+  {
+    "id": 101,
+    "revisionId": 1,
+    "type": "Diagnosticflow",
+    "title": "New Article",
+    "description": "Needs to be added to the index",
+    "lastModified": "2024-06-18T13:16:14Z",
+    "status": "Online",
+    "publicLink": "https://ajuda.vodafone.pt?article_id=4243"    
+  },
+  {
+    "id": 102,
+    "revisionId": 2,
+    "type": "Article",
+    "title": "Existing article",
+    "description": "Existing article that needs to be updated in the index",
+    "lastModified": "2024-06-18T12:42:41Z",
+    "status": "Online",
+    "publicLink": "https://ajuda.vodafone.pt?article_id=4426"
+  },
+  {
+    "id": 103,
+    "revisionId": 100021,
+    "type": "Article",
+    "title": "Existing article",
+    "description": "Existing article that needs to be deleted from the index",
+    "lastModified": "2024-06-18T12:42:41Z",
+    "status": "Offline",
+    "publicLink": "https://ajuda.vodafone.pt?article_id=4426"
+  },
+  {
+    "id": 104,
+    "revisionId": 100021,
+    "type": "Article",
+    "title": "Existing article",
+    "description": "Existing article that is already deleted from index",
+    "lastModified": "2024-06-18T12:42:41Z",
+    "status": "Offline",
+    "publicLink": "https://ajuda.vodafone.pt?article_id=4426"
+  }
+]

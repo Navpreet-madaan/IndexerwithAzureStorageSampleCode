@@ -1,0 +1,20 @@
+{
+    "d": {
+      "results": [        
+        {         
+          "Member": {
+            "Title": "Literaturas Visitors"
+          }
+        },        
+        {
+          "Member": {           
+            "Title": "Mansi Faraswami, Vodafone (External)",            
+            "Email": "mansi.faraswami@vodafone.com"            
+          }
+        }
+      ]
+    },
+    "FullFilePath": "library.aspx",
+    "SPGroupsFilePath": "superagent/groupaccess/Literaturas Visitors.json;",
+    "PageURL": "https://vodafone.sharepoint.com/library.aspx"
+  }

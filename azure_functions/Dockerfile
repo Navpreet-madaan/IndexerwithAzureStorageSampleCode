@@ -1,5 +1,6 @@
 # To enable ssh & remote debugging on app service change the base image to the one below
 # FROM mcr.microsoft.com/azure-functions/python:4-python3.11-appservice
+# source is https://github.com/Azure/azure-functions-docker
 FROM mcr.microsoft.com/azure-functions/python:4-python3.11-slim
 
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot \
@@ -14,9 +15,7 @@ RUN pip install -r /requirements.txt
 
 COPY common /home/site/wwwroot/common
 COPY helpers /home/site/wwwroot/helpers
-COPY webcrawler /home/site/wwwroot/webcrawler
+COPY supersearch /home/site/wwwroot/supersearch
+COPY superagent /home/site/wwwroot/superagent
 COPY function_app.py /home/site/wwwroot
 COPY host.json /home/site/wwwroot
-COPY scrapy.cfg /home/site/wwwroot
-
-RUN mkdir -p /home/site/wwwroot/temp/downloads/full
